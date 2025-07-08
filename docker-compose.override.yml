@@ -1,0 +1,37 @@
+services:
+  # buildyourpc.api:
+  #   environment:
+  #     - ASPNETCORE_ENVIRONMENT=Development
+  #     - ASPNETCORE_HTTP_PORTS=8080
+  #     - ASPNETCORE_HTTPS_PORTS=8081
+  #   ports:
+  #     - "8080"
+  #     - "8081"
+  #   volumes:
+  #     - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+  #     - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+  #     - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+  #     - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+  mysql_db:
+    image: mysql:8.0
+    container_name: buildyourpc_db
+    environment:
+      MYSQL_ROOT_PASSWORD: qazwsx@123456
+      MYSQL_DATABASE: buildyourpc_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: qqq111!!!
+      TZ: Asia/Ho_Chi_Minh
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - app_network
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  app_network:
+    driver: bridge
