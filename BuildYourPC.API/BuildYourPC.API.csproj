@@ -11,16 +11,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.17">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BuildYourPC.Application\BuildYourPC.Application.csproj" />
+    <ProjectReference Include="..\BuildYourPC.Domain\BuildYourPC.Domain.csproj" />
     <ProjectReference Include="..\BuildYourPC.Infrastructure\BuildYourPC.Infrastructure.csproj" />
     <ProjectReference Include="..\Domain\BuildYourPC.Domain.csproj" />
   </ItemGroup>

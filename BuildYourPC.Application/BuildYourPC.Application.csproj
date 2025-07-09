@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BuildYourPC.Domain\BuildYourPC.Domain.csproj" />
     <ProjectReference Include="..\BuildYourPC.Infrastructure\BuildYourPC.Infrastructure.csproj" />
     <ProjectReference Include="..\Domain\BuildYourPC.Domain.csproj" />
   </ItemGroup>

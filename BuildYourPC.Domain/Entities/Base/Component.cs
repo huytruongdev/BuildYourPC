@@ -1,5 +1,5 @@
-﻿using Domain.Enums;
-using Domain.Interfaces;
+﻿using BuildYourPC.Domain.Interfaces;
+using Domain.Enums;
 
 namespace BuildYourPC.Domain.Entities.Base;
 

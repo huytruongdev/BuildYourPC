@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildYourPC.API", "BuildYourPC\BuildYourPC.API.csproj", "{6194B385-5CD8-4C97-B2CC-5F6605DABD6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildYourPC.API", "BuildYourPC.API\BuildYourPC.API.csproj", "{6194B385-5CD8-4C97-B2CC-5F6605DABD6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildYourPC.Domain", "Domain\BuildYourPC.Domain.csproj", "{A19BD8F1-2113-4C64-88BE-8414CC1DC215}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildYourPC.Domain", "BuildYourPC.Domain\BuildYourPC.Domain.csproj", "{A19BD8F1-2113-4C64-88BE-8414CC1DC215}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildYourPC.Application", "BuildYourPC.Application\BuildYourPC.Application.csproj", "{4805998D-DD07-430A-A563-7190578934A9}"
 EndProject

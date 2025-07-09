@@ -1,7 +1,6 @@
 using BuildYourPC.Application.Interfaces;
 using BuildYourPC.Application.Services;
 using BuildYourPC.Infrastructure.DB;
-using Microsoft.EntityFrameworkCore;
 
 namespace BuildYourPC.API;
 
@@ -18,12 +17,6 @@ public class Program
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();
 
-        //builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        //{
-        //    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-        //    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
-        //    MySqlProvider.Initialize(connectionString!);
-        //});
         var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
         MySqlProvider.Initialize(connectionString);
 

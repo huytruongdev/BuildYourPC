@@ -1,4 +1,4 @@
-﻿using Domain.Interfaces;
+﻿using BuildYourPC.Domain.Interfaces;
 
 namespace BuildYourPC.Domain.Entities;
 

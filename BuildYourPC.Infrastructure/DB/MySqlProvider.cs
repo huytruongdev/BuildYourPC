@@ -1,8 +1,8 @@
 ﻿using System.Data;
 using System.Data.Common;
 using System.Diagnostics;
+using BuildYourPC.Domain.Interfaces;
 using Dapper;
-using Domain.Interfaces;
 using MySqlConnector;
 
 namespace BuildYourPC.Infrastructure.DB;

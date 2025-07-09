@@ -1,4 +1,4 @@
-﻿namespace Domain.Interfaces;
+﻿namespace BuildYourPC.Domain.Interfaces;
 
 public interface IAuditableEntity
 {
