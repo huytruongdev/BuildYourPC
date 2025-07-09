@@ -18,6 +18,7 @@
     <ProjectReference Include="..\BuildYourPC.Application\BuildYourPC.Application.csproj" />
     <ProjectReference Include="..\BuildYourPC.Domain\BuildYourPC.Domain.csproj" />
     <ProjectReference Include="..\BuildYourPC.Infrastructure\BuildYourPC.Infrastructure.csproj" />
+    <ProjectReference Include="..\BuildYourPC.Shared\BuildYourPC.Shared.csproj" />
     <ProjectReference Include="..\Domain\BuildYourPC.Domain.csproj" />
   </ItemGroup>
 
